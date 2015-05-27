@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706F30461B15B7E5009DDB2A /* GlanceWordRainbowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A058621B15B6D300C8A476 /* GlanceWordRainbowImage.swift */; };
 		70A058421B15B69900C8A476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A058411B15B69900C8A476 /* AppDelegate.swift */; };
 		70A058441B15B69900C8A476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A058431B15B69900C8A476 /* ViewController.swift */; };
 		70A058471B15B69900C8A476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A058451B15B69900C8A476 /* Main.storyboard */; };
 		70A058491B15B69900C8A476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A058481B15B69900C8A476 /* Images.xcassets */; };
 		70A0584C1B15B69900C8A476 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70A0584A1B15B69900C8A476 /* LaunchScreen.xib */; };
 		70A058581B15B69900C8A476 /* GlanceWordRainbowImageExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A058571B15B69900C8A476 /* GlanceWordRainbowImageExampleTests.swift */; };
+		70A058631B15B6D300C8A476 /* GlanceWordRainbowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A058621B15B6D300C8A476 /* GlanceWordRainbowImage.swift */; };
+		70A0586D1B15B71200C8A476 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A0586C1B15B71200C8A476 /* InterfaceController.swift */; };
+		70A0586F1B15B71200C8A476 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A0586E1B15B71200C8A476 /* GlanceController.swift */; };
+		70A058711B15B71200C8A476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A058701B15B71200C8A476 /* Images.xcassets */; };
+		70A058751B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 70A058741B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App.app */; };
+		70A0587D1B15B71200C8A476 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A0587B1B15B71200C8A476 /* Interface.storyboard */; };
+		70A0587F1B15B71200C8A476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A0587E1B15B71200C8A476 /* Images.xcassets */; };
+		70A058821B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70A058681B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +32,35 @@
 			remoteGlobalIDString = 70A0583B1B15B69900C8A476;
 			remoteInfo = GlanceWordRainbowImageExample;
 		};
+		70A058761B15B71200C8A476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70A058341B15B69900C8A476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70A058731B15B71200C8A476;
+			remoteInfo = "GlanceWordRainbowImageExample WatchKit App";
+		};
+		70A058801B15B71200C8A476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70A058341B15B69900C8A476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70A058671B15B71200C8A476;
+			remoteInfo = "GlanceWordRainbowImageExample WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70A058891B15B71200C8A476 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70A058821B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		70A0583C1B15B69900C8A476 /* GlanceWordRainbowImageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlanceWordRainbowImageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +73,16 @@
 		70A058511B15B69900C8A476 /* GlanceWordRainbowImageExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlanceWordRainbowImageExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A058561B15B69900C8A476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70A058571B15B69900C8A476 /* GlanceWordRainbowImageExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceWordRainbowImageExampleTests.swift; sourceTree = "<group>"; };
+		70A058621B15B6D300C8A476 /* GlanceWordRainbowImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlanceWordRainbowImage.swift; sourceTree = "<group>"; };
+		70A058681B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GlanceWordRainbowImageExample WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A0586B1B15B71200C8A476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A0586C1B15B71200C8A476 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		70A0586E1B15B71200C8A476 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		70A058701B15B71200C8A476 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70A058741B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GlanceWordRainbowImageExample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A0587A1B15B71200C8A476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A0587C1B15B71200C8A476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		70A0587E1B15B71200C8A476 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +100,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70A058651B15B71200C8A476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		70A058331B15B69900C8A476 = {
 			isa = PBXGroup;
 			children = (
+				70A058611B15B69D00C8A476 /* GlanceWordRainbowImage */,
 				70A0583E1B15B69900C8A476 /* GlanceWordRainbowImageExample */,
 				70A058541B15B69900C8A476 /* GlanceWordRainbowImageExampleTests */,
+				70A058691B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension */,
+				70A058781B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App */,
 				70A0583D1B15B69900C8A476 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +127,8 @@
 			children = (
 				70A0583C1B15B69900C8A476 /* GlanceWordRainbowImageExample.app */,
 				70A058511B15B69900C8A476 /* GlanceWordRainbowImageExampleTests.xctest */,
+				70A058681B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension.appex */,
+				70A058741B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +171,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		70A058611B15B69D00C8A476 /* GlanceWordRainbowImage */ = {
+			isa = PBXGroup;
+			children = (
+				70A058621B15B6D300C8A476 /* GlanceWordRainbowImage.swift */,
+			);
+			name = GlanceWordRainbowImage;
+			sourceTree = "<group>";
+		};
+		70A058691B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70A0586C1B15B71200C8A476 /* InterfaceController.swift */,
+				70A0586E1B15B71200C8A476 /* GlanceController.swift */,
+				70A058701B15B71200C8A476 /* Images.xcassets */,
+				70A0586A1B15B71200C8A476 /* Supporting Files */,
+			);
+			path = "GlanceWordRainbowImageExample WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		70A0586A1B15B71200C8A476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70A0586B1B15B71200C8A476 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70A058781B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				70A0587B1B15B71200C8A476 /* Interface.storyboard */,
+				70A0587E1B15B71200C8A476 /* Images.xcassets */,
+				70A058791B15B71200C8A476 /* Supporting Files */,
+			);
+			path = "GlanceWordRainbowImageExample WatchKit App";
+			sourceTree = "<group>";
+		};
+		70A058791B15B71200C8A476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70A0587A1B15B71200C8A476 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +226,12 @@
 				70A058381B15B69900C8A476 /* Sources */,
 				70A058391B15B69900C8A476 /* Frameworks */,
 				70A0583A1B15B69900C8A476 /* Resources */,
+				70A058891B15B71200C8A476 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				70A058811B15B71200C8A476 /* PBXTargetDependency */,
 			);
 			name = GlanceWordRainbowImageExample;
 			productName = GlanceWordRainbowImageExample;
@@ -150,6 +256,39 @@
 			productReference = 70A058511B15B69900C8A476 /* GlanceWordRainbowImageExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		70A058671B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A058861B15B71200C8A476 /* Build configuration list for PBXNativeTarget "GlanceWordRainbowImageExample WatchKit Extension" */;
+			buildPhases = (
+				70A058641B15B71200C8A476 /* Sources */,
+				70A058651B15B71200C8A476 /* Frameworks */,
+				70A058661B15B71200C8A476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70A058771B15B71200C8A476 /* PBXTargetDependency */,
+			);
+			name = "GlanceWordRainbowImageExample WatchKit Extension";
+			productName = "GlanceWordRainbowImageExample WatchKit Extension";
+			productReference = 70A058681B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		70A058731B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A058831B15B71200C8A476 /* Build configuration list for PBXNativeTarget "GlanceWordRainbowImageExample WatchKit App" */;
+			buildPhases = (
+				70A058721B15B71200C8A476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GlanceWordRainbowImageExample WatchKit App";
+			productName = "GlanceWordRainbowImageExample WatchKit App";
+			productReference = 70A058741B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +304,12 @@
 					70A058501B15B69900C8A476 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 70A0583B1B15B69900C8A476;
+					};
+					70A058671B15B71200C8A476 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					70A058731B15B71200C8A476 = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -183,6 +328,8 @@
 			targets = (
 				70A0583B1B15B69900C8A476 /* GlanceWordRainbowImageExample */,
 				70A058501B15B69900C8A476 /* GlanceWordRainbowImageExampleTests */,
+				70A058671B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension */,
+				70A058731B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +352,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70A058661B15B71200C8A476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A058751B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App.app in Resources */,
+				70A058711B15B71200C8A476 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A058721B15B71200C8A476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A0587D1B15B71200C8A476 /* Interface.storyboard in Resources */,
+				70A0587F1B15B71200C8A476 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -213,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70A058441B15B69900C8A476 /* ViewController.swift in Sources */,
+				70A058631B15B6D300C8A476 /* GlanceWordRainbowImage.swift in Sources */,
 				70A058421B15B69900C8A476 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +391,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70A058641B15B71200C8A476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A0586D1B15B71200C8A476 /* InterfaceController.swift in Sources */,
+				706F30461B15B7E5009DDB2A /* GlanceWordRainbowImage.swift in Sources */,
+				70A0586F1B15B71200C8A476 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +408,16 @@
 			isa = PBXTargetDependency;
 			target = 70A0583B1B15B69900C8A476 /* GlanceWordRainbowImageExample */;
 			targetProxy = 70A058521B15B69900C8A476 /* PBXContainerItemProxy */;
+		};
+		70A058771B15B71200C8A476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70A058731B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit App */;
+			targetProxy = 70A058761B15B71200C8A476 /* PBXContainerItemProxy */;
+		};
+		70A058811B15B71200C8A476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70A058671B15B71200C8A476 /* GlanceWordRainbowImageExample WatchKit Extension */;
+			targetProxy = 70A058801B15B71200C8A476 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +436,14 @@
 				70A0584B1B15B69900C8A476 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		70A0587B1B15B71200C8A476 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70A0587C1B15B71200C8A476 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +584,62 @@
 			};
 			name = Release;
 		};
+		70A058841B15B71200C8A476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = GlanceWordRainbowImageExample_WatchKit_Extension;
+				INFOPLIST_FILE = "GlanceWordRainbowImageExample WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		70A058851B15B71200C8A476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = GlanceWordRainbowImageExample_WatchKit_Extension;
+				INFOPLIST_FILE = "GlanceWordRainbowImageExample WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		70A058871B15B71200C8A476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GlanceWordRainbowImageExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70A058881B15B71200C8A476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GlanceWordRainbowImageExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +659,7 @@
 				70A0585D1B15B69900C8A476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70A0585E1B15B69900C8A476 /* Build configuration list for PBXNativeTarget "GlanceWordRainbowImageExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +668,25 @@
 				70A058601B15B69900C8A476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70A058831B15B71200C8A476 /* Build configuration list for PBXNativeTarget "GlanceWordRainbowImageExample WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A058841B15B71200C8A476 /* Debug */,
+				70A058851B15B71200C8A476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70A058861B15B71200C8A476 /* Build configuration list for PBXNativeTarget "GlanceWordRainbowImageExample WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A058871B15B71200C8A476 /* Debug */,
+				70A058881B15B71200C8A476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

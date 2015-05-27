@@ -1,5 +1,5 @@
 //
-//  GlanceWordCloudImage.swift
+//  GlanceWordRainbowImage.swift
 //  Restaurant
 //
 //  Created by Yusuke Kawanabe on 2/13/15.
@@ -10,7 +10,7 @@ import Foundation
 import QuartzCore
 import UIKit
 
-class GlanceWordCloudImage: CALayer {
+class GlanceWordRainbowImage: CALayer {
     let font = UIFont(name: "Helvetica-bold", size: 25.0)
     let defaultTextColor = UIColor(red: 136.0/255.0, green: 72.0/255.0, blue: 72.0/255.0, alpha: 1.0)
     

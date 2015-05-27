@@ -9,9 +9,9 @@
 import WatchKit
 import Foundation
 
-
 class GlanceController: WKInterfaceController {
 
+    @IBOutlet weak var image: WKInterfaceImage!
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -19,7 +19,17 @@ class GlanceController: WKInterfaceController {
     }
 
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
+        let imageSize = CGSizeMake(312, 215)
+
+        // create word cloud image
+        let wordCloudImage: GlanceWordRainbowImage = GlanceWordRainbowImage(size: imageSize)
+        wordCloudImage.addArcString("円安", radius: 68,
+            textColor:UIColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0))
+        wordCloudImage.addArcString("議会演説", radius: 113, textColor:UIColor(red:255.0/255.0, green:255.0/255.0, blue: 255.0/255.0, alpha: 1.0))
+        wordCloudImage.addArcString("Apple WATCH", radius: 161, textColor:UIColor(red:255.0/255.0, green:255.0/255.0, blue: 255.0/255.0, alpha: 1.0))
+        wordCloudImage.addArcString("東京オリンピック", radius: 213, textColor:UIColor(red: 255.0/255.0, green:255.0/255.0, blue: 255.0/255.0, alpha: 1.0))
+        self.image.setImage(wordCloudImage.generateImage())
+        
         super.willActivate()
     }
 
